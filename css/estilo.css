@@ -1,0 +1,159 @@
+/* Cabeçalho */
+header {
+    background-color: #343a40;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    height: 70px;
+    width: 70px;
+}
+
+/* Banner */
+#section-banners {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#section-banners img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/* Mais Vendidos */
+#section-vendidos {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#section-vendidos h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos .card-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os cards */
+}
+
+#section-vendidos .card {
+    width: 18rem; /* Largura fixa para os cards */
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+#section-vendidos .card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#section-vendidos .preco {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Botão Voltar ao Topo */
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+    font-size: 16px;
+}
+
+/* Página de login */
+#section-login {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Formulário de cadastro */
+#form-cadastrar {
+    margin-top: 20px;
+    display: none;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+#form-cadastrar h1 {
+    text-align: center;
+}
+
+#form-cadastrar p {
+    text-align: center;
+}
+
+#form-cadastrar .form-control {
+    margin-bottom: 15px;
+}
+
+#section-cadastro button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Botão de cadastro */
+#botao-cadastrar {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Centralizar os elementos dentro do login */
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Centra verticalmente */
+}
+
+/* Estilo dos botões */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+/* Estilo do carrossel */
+.carousel-inner img {
+    object-fit: cover;
+    max-height: 500px;
+}
+
+/* Ajuste para a barra de navegação */
+.navbar-nav .nav-link {
+    padding: 10px 20px;
+    font-weight: bold;
+}
